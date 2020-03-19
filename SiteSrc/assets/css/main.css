@@ -3876,11 +3876,29 @@ input, select, textarea {
 
 		#intro p {
 			font-size: 1.25em;
+			margin-top: 5em;
+		}
+
+		#intro img {
+			display: inline-block;
+		}
+
+		#intro h1 {
+			margin-top: -3.5em;
+			margin-left: 6.5em;
 		}
 
 			@media screen and (max-width: 980px) {
 
 				#intro p br {
+					display: none;
+				}
+
+				#intro h1 {
+					margin: 0px;
+				}
+
+				#intro img {
 					display: none;
 				}
 
