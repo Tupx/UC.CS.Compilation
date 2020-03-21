@@ -92,7 +92,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background-image: url('images/WallpaperDark.jpg');
+		 background-size: 150px;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3364,7 +3365,9 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		/* background: #5e42a6 */
+		background-image: url('images/HeaderWallpaper.jpg');
+		background-size: 100%;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
